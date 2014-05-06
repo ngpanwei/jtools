@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/69/trunk/jsupervisor/sample/jsupervisor/samples/basic/test
+END
+SimpleUnitTestwithMock.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/38/trunk/jsupervisor/sample/jsupervisor/samples/basic/test/SimpleUnitTestwithMock.java
+END
+SimpleRecorderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/38/trunk/jsupervisor/sample/jsupervisor/samples/basic/test/SimpleRecorderTest.java
+END
+SimpleExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/38/trunk/jsupervisor/sample/jsupervisor/samples/basic/test/SimpleExceptionTest.java
+END
+SimpleUnitTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/69/trunk/jsupervisor/sample/jsupervisor/samples/basic/test/SimpleUnitTest.java
+END
+SimpleIntegrationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/38/trunk/jsupervisor/sample/jsupervisor/samples/basic/test/SimpleIntegrationTest.java
+END

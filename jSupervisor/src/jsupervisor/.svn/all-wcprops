@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor
+END
+SpecificationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/SpecificationException.java
+END
+RecordingSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/RecordingSession.java
+END
+Supervisor.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/Supervisor.java
+END
+ExecutionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/ExecutionException.java
+END
+Execution.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/Execution.java
+END
+Recorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/Recorder.java
+END
+Proxifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/Proxifier.java
+END
+InvocationResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/InvocationResult.java
+END
+Specifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/70/trunk/jsupervisor/src/jsupervisor/Specifier.java
+END
+Invocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/Invocation.java
+END
+Attachments.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/Attachments.java
+END
+Watcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/Watcher.java
+END
+Executor.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/38/trunk/jsupervisor/src/jsupervisor/Executor.java
+END

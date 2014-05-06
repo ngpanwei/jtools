@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jShuffler" default="packaging" basedir=".">
+	<description>
+		jShuffler build file.  This is used to package the project as a zip.
+	</description>
+	<target name="packaging" description="packaging jShuffler">
+		<jar destfile="jShuffler.zip" description="Packing project">
+			<zipfileset dir="src" prefix="src"/>
+			<zipfileset dir="test" prefix="test"/>
+			<zipfileset dir="output" prefix="output"/>
+			<zipfileset file=".classpath" />
+			<zipfileset file=".project" />
+			<zipfileset file="build.xml" />
+		</jar>
+    </target>
+</project>
