@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jServletTest" default="jServletTest.zip" basedir=".">
+	<description>
+    jServletTest build file.  This is used to package the project as a zip.
+  </description>
+	<tstamp>
+		<format property="build.time" pattern="yyyy-MM-dd-HH-mm" unit="minute"/>
+	</tstamp>	
+	<target name="jServletTest.zip" description="packaging jServletTest">
+		<jar destfile="jServletTest-${build.time}.zip" description="Packing project">
+			<zipfileset dir="src" prefix="src"/>
+			<zipfileset dir="example" prefix="example"/>
+			<zipfileset dir="test" prefix="test"/>
+			<zipfileset dir="WEB-INF" prefix="WEB-INF"/>
+			<zipfileset file=".classpath" />
+			<zipfileset file=".project" />
+			<zipfileset file="build.xml" />
+		</jar>
+    </target>
+	<target name="jServletTest.jar" description="create jServletTest.jar">
+		<jar destfile="build/jServletTest.jar" description="Creating jServletTest.jar">
+			<zipfileset dir="WEB-INF/classes/ngpanwei/jServletTest" prefix="ngpanwei/jServletTest"/>
+		</jar>
+	</target>	
+</project>

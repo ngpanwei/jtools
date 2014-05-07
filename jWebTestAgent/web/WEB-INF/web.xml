@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Restful Web Application</display-name>
+  <servlet>
+    <servlet-name>CukeServlet</servlet-name>
+    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer
+                </servlet-class>
+    <init-param>
+      <param-name>com.sun.jersey.config.property.packages</param-name>
+      <param-value>ngpanwei.jWebTestAgent.example.src.server</param-value>
+    </init-param>
+    
+    <init-param>
+		<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+		<param-value>true</param-value>
+	</init-param>
+	
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CukeServlet</servlet-name>
+    <url-pattern>/jCuke/*</url-pattern>
+  </servlet-mapping>
+</web-app>
