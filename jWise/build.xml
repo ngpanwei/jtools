@@ -13,4 +13,9 @@
 			<zipfileset file="build.xml" />
 		</jar>
     </target>
+	<target name="jar" description="packaging jWise.jar">
+		<jar destfile="jWise.jar" description="Packing project">
+			<zipfileset dir="bin/ngpanwei" prefix="bin/ngpanwei"/>
+			</jar>
+	    </target>
 </project>
