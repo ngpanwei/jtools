@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="jWise" default="packaging" basedir=".">
+<project name="jWise" default="Zipping Project" basedir=".">
 	<description>
     jSupervisor build file.  This is used to package the project as a zip.
   </description>
-	<target name="packaging" description="packaging jWise">
+	<target name="Zipping Project" description="packaging jWise">
 		<jar destfile="jWise.zip" description="Packing project">
 			<zipfileset dir="src" prefix="src"/>
 			<zipfileset dir="sample" prefix="sample"/>
@@ -13,9 +13,10 @@
 			<zipfileset file="build.xml" />
 		</jar>
     </target>
-	<target name="jar" description="packaging jWise.jar">
+	<target name="Packaging jWise.jar" description="packaging jWise.jar">
 		<jar destfile="jWise.jar" description="Packing project">
-			<zipfileset dir="bin/ngpanwei" prefix="bin/ngpanwei"/>
+			<zipfileset dir="bin/ngpanwei/jWise/algorithm" prefix="bin/ngpanwei/jWise/algorithm"/>
+			<zipfileset dir="bin/ngpanwei/jWise/core" prefix="bin/ngpanwei/jWise/core"/>
 			</jar>
 	    </target>
 </project>

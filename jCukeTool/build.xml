@@ -20,9 +20,14 @@
 			</classpath>
 		</java>
 	</target>
-	<target name="packaging" description="packaging jCukeTool">
+	<target name="jar" description="jar jCukeTool">
 		<jar destfile="jCukeTool.jar" description="Packing project">
 			<zipfileset dir="bin" />
+		</jar>
+		<jar destfile="jCukeTool.zip" description="Packing project">
+			<zipfileset dir="template" prefix="template" />
+			<zipfileset dir="results" prefix="results"/>
+			<zipfileset dir="test" prefix="test"/>
 		</jar>
     </target>
 </project>
