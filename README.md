@@ -9,5 +9,3 @@ purposes, but some have seen "live" action.
 * jWise - Pair-Wise Test Case Generation
 * jShuffler - A Concurrent Testing Framework to Explore Thread Execution Combinations
 
-
-
